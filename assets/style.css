@@ -1,0 +1,31 @@
+/* restyle single date picker */
+.DateInput, .DateInput_1 {
+    border-radius: 0px 0 0 0px;
+}
+
+.DateInput_input, .DateInput_input_1 {
+    Height: 34px;
+    Width: 100%;
+    font-size: 13px;
+}
+
+.SingleDatePickerInput__withBorder {
+    border-radius: 0px 0 0 0px;
+    border: 0px;
+}
+
+/* restyle radio items */
+.radio-group .form-check {
+  padding-left: 0;
+}
+
+.radio-group .btn-group > .form-check:not(:last-child) > .btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radio-group .btn-group > .form-check:not(:first-child) > .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+}
